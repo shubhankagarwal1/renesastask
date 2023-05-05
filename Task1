@@ -1,0 +1,31 @@
+#include"iodefine.h"
+#include<stdio.h>
+void main(void);
+
+void main(void)
+{
+  unsigned int i,j,k;
+  PM0_bit.no1=0U;
+  PM0_bit.no0=1U;
+  while(1U)
+    {  
+  if(P0_bit.no0==1U)
+    for(k=0;k<6;k++)
+      {
+    P0_bit.no1=1U;
+    for(i=0;i<65535;i++)
+      {
+      for(j=0;j<32;j++)
+        {
+        }
+      }
+         P0_bit.no1=0U;
+        for(i=0;i<5;i++)
+      {
+      for(j=0;j<6553;j++)
+        {
+        }
+      }  
+      }
+    }
+}
