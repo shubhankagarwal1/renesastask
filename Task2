@@ -1,0 +1,16 @@
+#include"iodefine.h"
+
+void main(void);
+
+void main(void)
+{
+  
+  PM0_bit.no1=0U;
+  PM0_bit.no0=1U;
+  while(1U) {if(P0_bit.no0==1U)
+  {P0_bit.no1=1U;}
+  else
+  {
+    P0_bit.no1=0U;
+  }}
+}
